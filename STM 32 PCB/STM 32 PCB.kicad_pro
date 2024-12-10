@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Try.kicad_pro",
+    "filename": "STM 32 PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -527,11 +527,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -580,36 +592,44 @@
       "Root"
     ],
     [
-      "13ace4a4-0e48-4b3e-90e8-acd3d289aaa6",
-      "MCU"
-    ],
-    [
-      "c12a0d7b-f9dd-4649-8fee-e25d64340129",
-      "MOSFET Driver"
-    ],
-    [
-      "5b6818e6-aecd-4f04-8c29-92b4686e108f",
-      "MOSFETs"
-    ],
-    [
-      "b7f90d67-cdc7-4090-b7e5-15d952811fae",
-      "CAN"
-    ],
-    [
-      "e7e8b35e-b5ce-48f6-af61-a3cc766d9980",
-      "Filters"
-    ],
-    [
-      "4f627aa0-ac0d-422b-9355-9bbd4ea05163",
-      "Overview"
-    ],
-    [
       "06d18e6f-c748-4ca1-9481-e5b2e59e53e2",
-      "Block Diagram"
+      "[1]Block Diagram"
     ],
     [
-      "ecd8ea8e-ef98-42f9-9509-d2a05a785aba",
-      "Mechenical"
+      "f8f21900-3c37-4aea-bd46-6cd0986bb1ec",
+      "[2]INPUT PROTECTION"
+    ],
+    [
+      "38aedd7a-f18b-4c14-bf5f-5b4c5ffc3c10",
+      "[3]STEP_DOWN"
+    ],
+    [
+      "ef6d121a-6aa2-4d22-9a29-fcce941db65e",
+      "[4]MCU"
+    ],
+    [
+      "19416aab-39b6-4b91-a730-4fedc1a7552c",
+      "[5]MOSFET Driver"
+    ],
+    [
+      "01260e7c-3b1a-49d7-b408-a54c54e69365",
+      "[6]MOSFETs"
+    ],
+    [
+      "86a4cafd-5e73-4a34-b462-6c66084ca704",
+      "[7]CAN"
+    ],
+    [
+      "40308f02-2cbf-4160-b7c7-ffdb86316f6e",
+      "[8]Filters"
+    ],
+    [
+      "5d7e97e9-041f-49e0-b3e7-75f66be40159",
+      "[9]USB"
+    ],
+    [
+      "21e8d343-a7f8-4782-8791-ca497370511b",
+      "[10]Mechenical"
     ]
   ],
   "text_variables": {}
