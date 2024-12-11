@@ -5,6 +5,213 @@
 	(uuid "3623d0af-6681-4b06-a23f-f9d9be47f638")
 	(paper "A4")
 	(lib_symbols
+		(symbol "744227S:744227S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "744227S"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "WE-SL274"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744227S.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Common-Mode Line Filter WE-SL2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "744227S"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-744227S"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744227S?qs=PGXP4M47uW6UzRbcLRn7mw%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "744227S_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -258,6 +465,211 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "ESDCAN24-2BLY:ESDCAN24-2BLY"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESDCAN24-2BLY"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOT95P255X125-3N"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDCAN24-2BLY"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-ESDCAN24-2BLY"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "ESDCAN24-2BLY"
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac"
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "ESDCAN24-2BLY_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "I/O_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "I/O_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "I/O_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDCAN24-2BLY_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -709,6 +1121,117 @@
 			)
 		)
 	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4f7388-3798-42ea-a91d-91696e9474fd")
+	)
+	(junction
+		(at 123.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca38b100-c09b-4b3a-9e88-23ea5aa0f110")
+	)
+	(no_connect
+		(at 215.9 95.25)
+		(uuid "e7f46e33-e655-4aff-8212-6d83f6fa219c")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 26 24 1)
+		)
+		(uuid "01a26924-c384-437c-bc75-6ffcc57a3abd")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cca5a43-7f97-4017-8aa4-e802a47f3f1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236eeb7f-78a4-43f1-901f-e342a78da781")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "2d0b54aa-d747-4ccc-8b5b-feca654196bf")
+	)
+	(wire
+		(pts
+			(xy 60.96 95.25) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "5277986b-5b8b-4847-bb4d-55b33784f8de")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a06afcc-e6e2-4717-8823-1f0dda770bd2")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 91.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cf2cbf-aeef-48d1-b617-82005790577d")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "74466298-bc7c-4389-b967-676f44510b56")
+	)
+	(wire
+		(pts
+			(xy 156.21 82.55) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "7f054874-2943-4d17-9103-8a6535fa3af6")
+	)
 	(wire
 		(pts
 			(xy 123.19 59.69) (xy 123.19 53.34)
@@ -731,6 +1254,27 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 116.84) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97db16b6-9291-4e3a-a413-7bc7f00fad53")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 23 40 1)
+		)
+		(uuid "9d9c077a-76d2-4989-b3d8-71a935cfc855")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 137.16 62.23)
 		)
 		(stroke
@@ -741,23 +1285,101 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 119.38)
+			(xy 167.64 99.06) (xy 167.64 91.44)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 30 26 1)
 		)
-		(uuid "cf5bdd19-96e8-4d73-919e-4b4b7ee26f5b")
+		(uuid "b66acff1-f203-4669-a893-ca0293f19824")
 	)
 	(wire
 		(pts
-			(xy 123.19 67.31) (xy 123.19 88.9)
+			(xy 123.19 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "bf09816d-6782-40c5-a2ba-55eacdd81ef3")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 26 24 1)
+		)
+		(uuid "c51e44ac-6559-41ec-900f-53714f7b637b")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "d48bdec7-5d16-4dc3-88a3-7d5f0eabe6f6")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 23 40 1)
+		)
+		(uuid "dba46972-e8ca-47be-b889-5431343e88a7")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd07820f-d774-4e21-8469-9f102d6bd3b4")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae25cc1-1f29-465c-9ba4-3fdf703551e0")
+	)
+	(wire
+		(pts
+			(xy 167.64 82.55) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 30 26 1)
+		)
+		(uuid "fa41340c-ff96-4983-aa4e-4c9436d8b1e5")
+	)
+	(rectangle
+		(start 33.02 48.26)
+		(end 210.82 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b3fba17-83bc-4cb4-8e68-d70b55a13c22)
 	)
 	(text "CAN_H AND CAN_L\n\nTO BE ROUTED AS\nDIFFERENTIAL PAIR"
 		(exclude_from_sim no)
@@ -770,6 +1392,18 @@
 			)
 		)
 		(uuid "03e2928a-3432-4762-8bc8-2f6082f449ac")
+	)
+	(text "[07] CAN"
+		(exclude_from_sim no)
+		(at 146.558 25.146 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "2028b6ba-c4eb-441f-a08f-679eec53a223")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -790,7 +1424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "60p"
 			(at 127 64.7699 0)
 			(effects
 				(font
@@ -836,6 +1470,76 @@
 			(project ""
 				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6e518c-da0b-4cc2-af24-ca9826bd40a6")
+		(property "Reference" "C6"
+			(at 127 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60p"
+			(at 127 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.1552 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2876c466-e0b1-46f8-9d14-cbd0680b3932")
+		)
+		(pin "1"
+			(uuid "986f6cff-a857-4784-9ce4-ec1e92f2ae55")
+		)
+		(instances
+			(project "STM 32 PCB"
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -979,7 +1683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 119.38 0)
+		(at 123.19 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -988,7 +1692,7 @@
 		(fields_autoplaced yes)
 		(uuid "81029db6-a30a-4d6e-9693-e06b548e974f")
 		(property "Reference" "#PWR074"
-			(at 123.19 125.73 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 124.46 0)
+			(at 123.19 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 119.38 0)
+			(at 123.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 119.38 0)
+			(at 123.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 119.38 0)
+			(at 123.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,6 +1742,159 @@
 			(project ""
 				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDCAN24-2BLY:ESDCAN24-2BLY")
+		(at 60.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aa355d6-594b-406c-8dce-e112433793f4")
+		(property "Reference" "D3"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDCAN24-2BLY"
+			(at 76.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P255X125-3N"
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdcan24-2bly.pdf"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TVS Diode Array Bi-Directional ESDCAN24-2BLY Dual 40V, 230W, SOT23-3L 3-Pin"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDCAN24-2BLY"
+			(at 87.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-ESDCAN24-2BLY"
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN24-2BLY?qs=gNDSiZmRJS9IbRDJThIoAw%3D%3D"
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESDCAN24-2BLY"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esdcan24-2bly/stmicroelectronics?region=nac"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d23158f2-3e16-4d86-8d2f-26959eb2c78d")
+		)
+		(pin "3"
+			(uuid "8a5f9a38-b96e-46e0-afde-c3dff9c9c28d")
+		)
+		(pin "2"
+			(uuid "0982d37c-ba0c-404a-a4b6-e6f024018a61")
+		)
+		(instances
+			(project ""
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1061,7 +1918,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10R"
 			(at 152.4 78.74 90)
 			(effects
 				(font
@@ -1130,7 +1987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120R"
 			(at 125.73 93.9799 0)
 			(effects
 				(font
@@ -1183,7 +2040,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 83.82 0)
+		(at 44.45 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1192,7 +2049,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae629de7-f1bc-4ac3-90f0-5e3b5455bcab")
 		(property "Reference" "#PWR076"
-			(at 44.45 87.63 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +2058,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 44.45 78.74 0)
+			(at 44.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +2066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 83.82 0)
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +2075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +2084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 83.82 0)
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10R"
 			(at 152.4 95.25 90)
 			(effects
 				(font
@@ -1317,16 +2174,16 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
-		(at 220.98 87.63 180)
+		(at 220.98 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7b1e10e-008f-4702-a5c2-9cc17dc8e412")
 		(property "Reference" "U1"
-			(at 223.9965 74.93 0)
+			(at 223.9965 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +2192,7 @@
 			)
 		)
 		(property "Value" "SN65HVD230"
-			(at 223.9965 77.47 0)
+			(at 223.9965 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +2201,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 220.98 74.93 0)
+			(at 220.98 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +2210,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
-			(at 223.52 97.79 0)
+			(at 223.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +2219,7 @@
 			)
 		)
 		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
-			(at 220.98 87.63 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,8 +2261,154 @@
 		)
 	)
 	(symbol
+		(lib_id "744227S:744227S")
+		(at 167.64 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de81bbe4-6108-4b92-a19c-4adba0530628")
+		(property "Reference" "L1"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "744227S"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-SL274"
+			(at 184.15 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744227S.pdf"
+			(at 184.15 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Common-Mode Line Filter WE-SL2"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 184.15 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 184.15 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "744227S"
+			(at 184.15 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-744227S"
+			(at 184.15 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744227S?qs=PGXP4M47uW6UzRbcLRn7mw%3D%3D"
+			(at 184.15 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 184.15 983.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 184.15 1083.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8a8c0757-ee2a-4927-9d7d-d5a958289a89")
+		)
+		(pin "3"
+			(uuid "fc05159d-9ef4-4b1f-a17a-b1f00dff28ce")
+		)
+		(pin "2"
+			(uuid "7d3927fb-1fe3-440e-82bd-5e854e533735")
+		)
+		(pin "1"
+			(uuid "dd3552bd-728d-4c8e-a4fd-a11c71a91c61")
+		)
+		(instances
+			(project ""
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 43.18 121.92 0)
+		(at 45.72 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1414,7 +2417,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd7ba8a8-28de-40bc-b1b2-d91be3d39a62")
 		(property "Reference" "#PWR075"
-			(at 43.18 128.27 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +2426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 127 0)
+			(at 45.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +2434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 121.92 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +2443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 121.92 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +2452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 121.92 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,6 +2467,71 @@
 			(project "STM 32 PCB"
 				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffa2031a-e708-45dd-beff-8de3babf12da")
+		(property "Reference" "#PWR078"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.426 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5e18b2-b5dd-4ac8-8d5f-b6bc55ad6de9")
+		)
+		(instances
+			(project "STM 32 PCB"
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/86a4cafd-5e73-4a34-b462-6c66084ca704"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
