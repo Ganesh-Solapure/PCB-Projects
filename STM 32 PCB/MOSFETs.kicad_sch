@@ -5,29 +5,52 @@
 	(uuid "d43e240b-9e34-4828-9805-abd0ce8afc54")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Socket"
+		(symbol "7461084:7461084"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
+			(property "Value" "7461084"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "7461084"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461084.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -36,79 +59,91 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Description_1" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+				(at 16.51 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
+			(property "Height" "13.5"
+				(at 16.51 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "7461084"
+				(at 16.51 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
+			(property "Mouser Part Number" "710-7461084"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left)
+					(hide yes)
 				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461084?qs=lykWx4dhCCHlOeuPuO4BAQ%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify left)
+					(hide yes)
 				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "7461084_0_0"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,6 +156,146 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7461084_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1238,6 +1413,42 @@
 		(uuid "1c53159c-0293-437d-9631-b9064e66fb21")
 	)
 	(junction
+		(at 260.35 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6d545c-02cb-4dc9-8756-a8d7f189c56e")
+	)
+	(junction
+		(at 260.35 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bca1adc-b03a-44bb-bb4e-bfe0d0d3e08d")
+	)
+	(junction
+		(at 280.67 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32054542-69b5-40d4-a35e-599fc4c156e7")
+	)
+	(junction
+		(at 280.67 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3304f475-3a18-410a-8dcb-d5f0fcb0a981")
+	)
+	(junction
+		(at 260.35 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37993951-2d1e-47b9-afd3-0f61bff7f258")
+	)
+	(junction
+		(at 260.35 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c243940-2a09-40c3-892b-c8a4485655a6")
+	)
+	(junction
 		(at 64.77 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1250,10 +1461,28 @@
 		(uuid "702db335-ab83-469c-9127-eb7025326d1d")
 	)
 	(junction
+		(at 280.67 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792c65a8-98fe-4277-a66b-8597087083a7")
+	)
+	(junction
+		(at 260.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cef2278-3e18-423e-8015-66f4015cba67")
+	)
+	(junction
 		(at 158.75 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84fcf6ac-77e4-4813-999d-18bd2120f24e")
+	)
+	(junction
+		(at 280.67 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ce6291-2561-4e93-a60b-6f984f756711")
 	)
 	(junction
 		(at 213.36 93.98)
@@ -1262,10 +1491,34 @@
 		(uuid "89b3f013-ba0d-42b3-b122-26bcce935b66")
 	)
 	(junction
+		(at 280.67 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9470970e-fb71-4d79-a88a-161ce6c8a410")
+	)
+	(junction
+		(at 280.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95e9a22b-23ba-47ca-bded-cfab07264ec7")
+	)
+	(junction
+		(at 260.35 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b008ffd-5f01-47d0-9311-102543c7a899")
+	)
+	(junction
 		(at 64.77 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5d9727-e4ae-4a02-b9e1-08caea523fa5")
+	)
+	(junction
+		(at 280.67 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae51f679-355c-4557-b44f-39d63a41bea7")
 	)
 	(junction
 		(at 82.55 93.98)
@@ -1274,10 +1527,28 @@
 		(uuid "b76c73f3-0374-40a2-bf5c-5ffa63cac284")
 	)
 	(junction
+		(at 280.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea7550a-e332-4b1e-90f3-8deaa186bfe8")
+	)
+	(junction
 		(at 91.44 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e66f4409-d8b4-4211-bedc-725e540b633e")
+	)
+	(junction
+		(at 260.35 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50f2537-d893-4a40-b314-0dbe1cf6d27c")
+	)
+	(junction
+		(at 260.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f913323c-b9fc-4149-9e60-0fcee932f1a1")
 	)
 	(junction
 		(at 132.08 130.81)
@@ -1293,6 +1564,36 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 97.79) (xy 280.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01070b9f-c656-4452-ba83-2be31bf3e331")
+	)
+	(wire
+		(pts
+			(xy 260.35 119.38) (xy 260.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0813b060-0368-486d-bb8a-d8db3288642e")
+	)
+	(wire
+		(pts
+			(xy 260.35 71.12) (xy 260.35 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abb6996-bd1a-4629-b644-e04f7ba3465e")
+	)
+	(wire
+		(pts
 			(xy 127 119.38) (xy 132.08 119.38)
 		)
 		(stroke
@@ -1300,6 +1601,16 @@
 			(type default)
 		)
 		(uuid "100767ab-39b4-4526-809e-b844fa051358")
+	)
+	(wire
+		(pts
+			(xy 280.67 96.52) (xy 280.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113a5f64-fe51-4bcc-b0a2-271c3e99a7df")
 	)
 	(wire
 		(pts
@@ -1320,6 +1631,16 @@
 			(type default)
 		)
 		(uuid "1485fdb8-83be-4a6c-a92f-9d6abbea85af")
+	)
+	(wire
+		(pts
+			(xy 280.67 99.06) (xy 280.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c65251-3ec2-440a-8e0c-526c70f0c87e")
 	)
 	(polyline
 		(pts
@@ -1463,6 +1784,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 116.84) (xy 260.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d72270c-022d-496e-909e-d43fce37a4ac")
+	)
+	(wire
+		(pts
 			(xy 29.21 67.31) (xy 38.1 67.31)
 		)
 		(stroke
@@ -1480,6 +1811,16 @@
 			(type default)
 		)
 		(uuid "319f5ea2-b9a3-4a18-9ea1-945e6a66c25d")
+	)
+	(wire
+		(pts
+			(xy 260.35 97.79) (xy 260.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3271c304-069a-41c1-a5f3-ddb37f4cbcd6")
 	)
 	(wire
 		(pts
@@ -1503,7 +1844,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 267.97 74.93)
+			(xy 255.27 74.93) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1530,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "4019cf55-8664-4ecb-87b2-0ad358e73e91")
+	)
+	(wire
+		(pts
+			(xy 280.67 119.38) (xy 280.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410c18d8-1809-4936-b474-fccb62917eab")
 	)
 	(wire
 		(pts
@@ -1593,6 +1944,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 71.12) (xy 280.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5596f84e-55cb-456a-b82a-428bcd672364")
+	)
+	(wire
+		(pts
 			(xy 127 130.81) (xy 132.08 130.81)
 		)
 		(stroke
@@ -1600,6 +1961,16 @@
 			(type default)
 		)
 		(uuid "57c95ebd-c867-42c1-87e6-a56fbb3f0503")
+	)
+	(wire
+		(pts
+			(xy 260.35 74.93) (xy 280.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fa093f-ee71-4fa6-8be7-e60579a883a8")
 	)
 	(wire
 		(pts
@@ -1633,16 +2004,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 121.92) (xy 270.51 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7f28d0-425b-4ee3-a72f-c30826195c21")
-	)
-	(wire
-		(pts
 			(xy 31.75 165.1) (xy 39.37 165.1)
 		)
 		(stroke
@@ -1653,6 +2014,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 93.98) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ce94c8-e7e4-4b30-a785-1771cdfb30b8")
+	)
+	(wire
+		(pts
+			(xy 280.67 76.2) (xy 280.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76677ea4-1a76-42d4-b192-ce9c51e24365")
+	)
+	(wire
+		(pts
 			(xy 91.44 99.06) (xy 91.44 105.41)
 		)
 		(stroke
@@ -1660,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "769dfa85-58f4-488f-9281-a1a66711cd84")
+	)
+	(wire
+		(pts
+			(xy 254 97.79) (xy 260.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77def865-c7fb-442e-bc06-cb5e3909de4e")
 	)
 	(wire
 		(pts
@@ -1680,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "78fd433b-d245-4b65-b94c-8bd2477038a6")
+	)
+	(wire
+		(pts
+			(xy 280.67 73.66) (xy 280.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79df346e-e1a0-4a8d-bb53-7f1afb032b39")
 	)
 	(wire
 		(pts
@@ -1723,6 +2124,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 121.92) (xy 260.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879c2ec3-6f74-41bf-a292-5ad797cf60c7")
+	)
+	(wire
+		(pts
+			(xy 280.67 74.93) (xy 280.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881bf3f2-e1e7-4fb4-8961-591d49812c72")
+	)
+	(wire
+		(pts
 			(xy 190.5 66.04) (xy 198.12 66.04)
 		)
 		(stroke
@@ -1730,6 +2151,26 @@
 			(type default)
 		)
 		(uuid "8b62627d-31eb-41ea-98a5-29c79ae5fd74")
+	)
+	(wire
+		(pts
+			(xy 260.35 97.79) (xy 280.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ddc41-9576-44f5-8191-1280749c3852")
+	)
+	(wire
+		(pts
+			(xy 260.35 119.38) (xy 280.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcd12c7-7547-469c-848c-c33aedbe691b")
 	)
 	(wire
 		(pts
@@ -1770,6 +2211,16 @@
 			(type default)
 		)
 		(uuid "92b592b7-e018-4635-9acf-0ce493debae0")
+	)
+	(wire
+		(pts
+			(xy 260.35 99.06) (xy 260.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93840c88-355f-40e3-a88e-30391cd4236b")
 	)
 	(wire
 		(pts
@@ -1893,6 +2344,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 121.92) (xy 260.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d07241-a955-41e3-8f2c-4daec318ac7a")
+	)
+	(wire
+		(pts
 			(xy 132.08 119.38) (xy 132.08 121.92)
 		)
 		(stroke
@@ -1943,6 +2404,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 73.66) (xy 260.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc98ee11-87f9-424e-8f23-1f39cd62926a")
+	)
+	(wire
+		(pts
+			(xy 260.35 74.93) (xy 260.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca03385-e0ef-4ce6-b864-780b8bdffffb")
+	)
+	(wire
+		(pts
 			(xy 29.21 82.55) (xy 38.1 82.55)
 		)
 		(stroke
@@ -1950,6 +2431,36 @@
 			(type default)
 		)
 		(uuid "bda01a55-cb82-445c-b697-79f77a181860")
+	)
+	(wire
+		(pts
+			(xy 260.35 96.52) (xy 260.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf31547-1c6e-4051-b909-cfeb2f91cb38")
+	)
+	(wire
+		(pts
+			(xy 280.67 116.84) (xy 280.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb4f8f6-bdbf-41c6-9c01-5e1ca33e37bf")
+	)
+	(wire
+		(pts
+			(xy 260.35 76.2) (xy 260.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65972ce-6081-4027-af01-d630d8082a81")
 	)
 	(wire
 		(pts
@@ -2003,13 +2514,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 97.79) (xy 269.24 97.79)
+			(xy 280.67 121.92) (xy 280.67 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d80251f9-d3a8-476d-9d73-5c58d8011097")
+		(uuid "d6460761-53c1-4253-988c-a4656ac682ee")
 	)
 	(wire
 		(pts
@@ -2070,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "e7e660b7-ca19-432d-a902-4b20642281be")
+	)
+	(wire
+		(pts
+			(xy 280.67 93.98) (xy 280.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f153766c-20a1-4c47-b932-10b659035bf3")
 	)
 	(wire
 		(pts
@@ -4154,73 +4675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 273.05 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26abab86-f45f-4f28-904a-f8fa250d1f15")
-		(property "Reference" "J?"
-			(at 274.32 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 274.32 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7dc8124-bec2-46e0-9c04-c0902270e30f")
-		)
-		(instances
-			(project "STM 32 PCB"
-				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 201.93 66.04 90)
 		(unit 1)
@@ -4565,6 +5019,174 @@
 		)
 	)
 	(symbol
+		(lib_id "7461084:7461084")
+		(at 260.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4835b4f0-23c9-4086-9eec-26ac3bdff560")
+		(property "Reference" "J4"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7461084"
+			(at 270.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7461084"
+			(at 276.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461084.pdf"
+			(at 276.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 260.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 276.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.5"
+			(at 276.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 276.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7461084"
+			(at 276.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-7461084"
+			(at 276.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461084?qs=lykWx4dhCCHlOeuPuO4BAQ%3D%3D"
+			(at 276.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 276.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2c58e8a1-8013-49c3-b202-546d44974d54")
+		)
+		(pin "4"
+			(uuid "0d86078b-3334-4f47-bec2-4a77c2065916")
+		)
+		(pin "1"
+			(uuid "6dc50d5e-12f3-4133-a0dd-dfb419324fca")
+		)
+		(pin "5"
+			(uuid "45347d5f-fc56-4d9d-9c25-51690aae9f21")
+		)
+		(pin "2"
+			(uuid "30a0d6dc-b7a0-42b4-9466-0f7b60f7fcd8")
+		)
+		(pin "3"
+			(uuid "3ff9258b-16cc-444a-815c-00aa07e16b5c")
+		)
+		(pin "6"
+			(uuid "6bda6dd0-e8a9-49e5-a90d-05d3ecc27403")
+		)
+		(pin "7"
+			(uuid "8eb396dc-2c29-4169-b627-1f5aed632992")
+		)
+		(instances
+			(project ""
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 105.41 0)
 		(unit 1)
@@ -4691,6 +5313,174 @@
 			(project "STM 32 PCB"
 				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "7461084:7461084")
+		(at 260.35 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57962556-3d01-4a57-9490-a2dd49db0b14")
+		(property "Reference" "J6"
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7461084"
+			(at 270.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7461084"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461084.pdf"
+			(at 276.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 260.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 276.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.5"
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 276.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7461084"
+			(at 276.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-7461084"
+			(at 276.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461084?qs=lykWx4dhCCHlOeuPuO4BAQ%3D%3D"
+			(at 276.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 276.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 276.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "6217b1a3-a487-4a7a-b48f-5c1f051a030d")
+		)
+		(pin "4"
+			(uuid "0e3d240a-0eee-4321-b5cc-9c29c17532d4")
+		)
+		(pin "1"
+			(uuid "e15ae58c-a8b5-406f-b8de-02a124c2eab1")
+		)
+		(pin "5"
+			(uuid "c5a5de0b-bdab-42e8-a0e2-f6d533a4d5a5")
+		)
+		(pin "2"
+			(uuid "c29fb640-780f-41ce-b517-151480a9983f")
+		)
+		(pin "3"
+			(uuid "a5a09c3f-87f9-4692-a383-6dd8172fbd44")
+		)
+		(pin "6"
+			(uuid "3ad67a73-507c-4c34-bfa8-296cd2b7fa03")
+		)
+		(pin "7"
+			(uuid "9ac8513c-6605-48c5-9a20-524961c7ec2f")
+		)
+		(instances
+			(project "STM 32 PCB"
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5206,6 +5996,174 @@
 		)
 	)
 	(symbol
+		(lib_id "7461084:7461084")
+		(at 260.35 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4c973c-6bdd-46d9-9337-23f035709927")
+		(property "Reference" "J5"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7461084"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7461084"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461084.pdf"
+			(at 276.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical"
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.5"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7461084"
+			(at 276.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-7461084"
+			(at 276.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461084?qs=lykWx4dhCCHlOeuPuO4BAQ%3D%3D"
+			(at 276.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 276.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 276.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e3dd83fc-b681-4e1e-b1a9-b932dc0aa713")
+		)
+		(pin "4"
+			(uuid "df0bc521-ef9f-42de-b03f-444a20d9d586")
+		)
+		(pin "1"
+			(uuid "55fe78ba-48d6-4043-940d-a2fa4dcad06a")
+		)
+		(pin "5"
+			(uuid "ffb8c7b0-9c57-4aac-923f-e31e30a5dc97")
+		)
+		(pin "2"
+			(uuid "ec537034-576b-4666-9d4c-3da3d08540ef")
+		)
+		(pin "3"
+			(uuid "5def117a-0749-4033-be4c-debed14cb67c")
+		)
+		(pin "6"
+			(uuid "e50e3991-995a-47bd-96ba-7f6658063609")
+		)
+		(pin "7"
+			(uuid "2a494991-5ff3-4940-9a8a-a7935fc0fb90")
+		)
+		(instances
+			(project "STM 32 PCB"
+				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 66.04 90)
 		(unit 1)
@@ -5567,140 +6525,6 @@
 			(project "STM 32 PCB"
 				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
 					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 274.32 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b075bad0-d1ce-4d13-a793-d8ef4f0940a0")
-		(property "Reference" "J?"
-			(at 275.59 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 275.59 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "726890b4-3885-4f55-a78e-8fe09eb238af")
-		)
-		(instances
-			(project "STM 32 PCB"
-				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 275.59 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6424b8a-0531-4260-a51f-cdbffd11d2ea")
-		(property "Reference" "J?"
-			(at 276.86 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 276.86 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 275.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bfca61c-c5e6-4934-8432-d915d10f6229")
-		)
-		(instances
-			(project "STM 32 PCB"
-				(path "/8d375371-3274-467d-898f-aae6cf89bac6/01260e7c-3b1a-49d7-b408-a54c54e69365"
-					(reference "J?")
 					(unit 1)
 				)
 			)

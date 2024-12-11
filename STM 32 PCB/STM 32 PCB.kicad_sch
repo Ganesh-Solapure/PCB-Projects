@@ -18,7 +18,7 @@
 		(uuid "61d739bd-5683-432b-bf6f-9b20b88ecb5f")
 	)
 	(sheet
-		(at 119.38 60.96)
+		(at 120.65 76.2)
 		(size 25.4 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -30,7 +30,7 @@
 		)
 		(uuid "01260e7c-3b1a-49d7-b408-a54c54e69365")
 		(property "Sheetname" "[6]MOSFETs"
-			(at 119.38 60.2484 0)
+			(at 120.65 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETs.kicad_sch"
-			(at 119.38 81.8646 0)
+			(at 120.65 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,8 +56,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 26.67)
-		(size 40.64 20.32)
+		(at 55.88 34.29)
+		(size 40.64 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -68,7 +68,7 @@
 		)
 		(uuid "06d18e6f-c748-4ca1-9481-e5b2e59e53e2")
 		(property "Sheetname" "[1]Block Diagram"
-			(at 88.9 25.9584 0)
+			(at 55.88 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Sheetfile" "Block Diagram.kicad_sch"
-			(at 88.9 47.5746 0)
+			(at 55.88 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +94,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 63.5)
+		(at 86.36 78.74)
 		(size 20.32 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -106,7 +106,7 @@
 		)
 		(uuid "19416aab-39b6-4b91-a730-4fedc1a7552c")
 		(property "Sheetname" "[5]MOSFET Driver"
-			(at 85.09 62.7884 0)
+			(at 86.36 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFET Driver.kicad_sch"
-			(at 85.09 80.5946 0)
+			(at 86.36 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 96.52)
+		(at 116.84 113.03)
 		(size 39.37 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -144,7 +144,7 @@
 		)
 		(uuid "21e8d343-a7f8-4782-8791-ca497370511b")
 		(property "Sheetname" "[10]Mechenical"
-			(at 142.24 95.8084 0)
+			(at 116.84 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "Mechenical.kicad_sch"
-			(at 142.24 127.5846 0)
+			(at 116.84 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,8 +170,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 20.32)
-		(size 43.18 33.02)
+		(at 173.99 34.29)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -182,7 +182,7 @@
 		)
 		(uuid "38aedd7a-f18b-4c14-bf5f-5b4c5ffc3c10")
 		(property "Sheetname" "[3]STEP_DOWN"
-			(at 228.6 19.6084 0)
+			(at 173.99 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "STEP_DOWN.kicad_sch"
-			(at 228.6 53.9246 0)
+			(at 173.99 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +208,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 62.23)
+		(at 200.66 77.47)
 		(size 21.59 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -220,7 +220,7 @@
 		)
 		(uuid "40308f02-2cbf-4160-b7c7-ffdb86316f6e")
 		(property "Sheetname" "[8]Filters"
-			(at 199.39 61.5184 0)
+			(at 200.66 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +229,7 @@
 			)
 		)
 		(property "Sheetfile" "Filters.kicad_sch"
-			(at 199.39 84.4046 0)
+			(at 200.66 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +246,7 @@
 		)
 	)
 	(sheet
-		(at 55.88 95.25)
+		(at 54.61 114.3)
 		(size 34.29 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -258,7 +258,7 @@
 		)
 		(uuid "5d7e97e9-041f-49e0-b3e7-75f66be40159")
 		(property "Sheetname" "[9]USB"
-			(at 55.88 94.5384 0)
+			(at 54.61 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,7 +267,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 55.88 126.3146 0)
+			(at 54.61 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +284,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 62.23)
+		(at 161.29 77.47)
 		(size 22.86 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -296,7 +296,7 @@
 		)
 		(uuid "86a4cafd-5e73-4a34-b462-6c66084ca704")
 		(property "Sheetname" "[7]CAN"
-			(at 160.02 61.5184 0)
+			(at 161.29 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +305,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 160.02 81.8646 0)
+			(at 161.29 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +322,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 62.23)
+		(at 55.88 77.47)
 		(size 20.32 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -334,7 +334,7 @@
 		)
 		(uuid "ef6d121a-6aa2-4d22-9a29-fcce941db65e")
 		(property "Sheetname" "[4]MCU"
-			(at 54.61 61.5184 0)
+			(at 55.88 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,7 +343,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 54.61 81.8646 0)
+			(at 55.88 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,8 +360,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 21.59)
-		(size 40.64 30.48)
+		(at 114.3 33.02)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -372,7 +372,7 @@
 		)
 		(uuid "f8f21900-3c37-4aea-bd46-6cd0986bb1ec")
 		(property "Sheetname" "[2]INPUT PROTECTION"
-			(at 177.8 20.8784 0)
+			(at 114.3 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +381,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT PROTECTION.kicad_sch"
-			(at 177.8 52.6546 0)
+			(at 114.3 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
